@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "eujain-portfolio",
+  "description": "Project Portfolio",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Eujain Ting <eujain@gmail.com>",
   "dependencies": {
     "gatsby": "^1.9.238",
     "gatsby-link": "^1.6.39",
