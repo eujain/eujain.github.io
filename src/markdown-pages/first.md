@@ -1,0 +1,9 @@
+---
+path: "/projects/my-first-project"
+date: "2017-11-07"
+title: "My first project"
+---
+
+# hello first project!
+
+body text...
