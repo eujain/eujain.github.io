@@ -27,6 +27,6 @@ npm run develop
 
 ## Plugins
 
-- use typography.js to generate global font styles.
+- use typography.js to generate global font styles. See src/layouts/typography
 - read markdown files with gatsby-source-filesystem
 - convert markdown to html `gatsby-transformer-remark`

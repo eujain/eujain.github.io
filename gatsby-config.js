@@ -11,6 +11,12 @@ module.exports = {
         name: "markdown-pages",
       },
     },
+    { // Typography.js
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/layouts/typography`,
+      },
+    },
     `gatsby-transformer-remark`,
   ],
 };
