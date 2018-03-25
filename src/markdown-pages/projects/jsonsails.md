@@ -2,9 +2,11 @@
 path: "/projects/my-first-project"
 date: "2017-11-07"
 title: "JsonSails"
+image: "http://via.placeholder.com/700x400.jpg"
 ---
 
 A framework for the creation of userdata-driven personalized web apps
+<!-- end excerpt -->
 
 https://github.com/jaredtritz/jsonsails-readthedocs
 

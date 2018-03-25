@@ -31,3 +31,7 @@ npm run develop
 - Glamor to handle css scoping and merging. (Gatsby doesn't have a Radium plugin). Seems that with the plugin, Glamor doesn't need to be imported to use css props.
 - read markdown files with gatsby-source-filesystem
 - convert markdown to html `gatsby-transformer-remark`
+
+## TODO
+- responsive images: https://github.com/gatsbyjs/gatsby/issues/2054
+- sort projects by date

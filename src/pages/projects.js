@@ -1,5 +1,35 @@
 import React from 'react'
-import PostLink from "../components/post-link";
+import Link from "gatsby-link";
+
+const styles = {
+  project: {
+    title: {
+      margin: '0.4em 0'
+    },
+    image: {
+      margin: '0 0 0 0'
+    },
+    excerpt: {
+      margin: '0 0 2em 0'
+    }
+  }
+}
+
+const PostLink = ({ post }) => (
+  <div>
+    <Link to={post.frontmatter.path}>
+      <h3 css={styles.project.title}>
+        {post.frontmatter.title}
+      </h3>
+      <img css={styles.project.image}
+        src={post.frontmatter.image}
+      />
+    </Link>
+    <p css={styles.project.excerpt}>
+      {post.excerpt}
+    </p>
+  </div>
+);
 
 const IndexPage = ({ data: { allMarkdownRemark: { edges } } }) => {
   const Posts = edges
@@ -9,8 +39,6 @@ const IndexPage = ({ data: { allMarkdownRemark: { edges } } }) => {
   return (
   <div>
     <h1>Selected Projects</h1>
-    <p>TODO: generate list of projects here.</p>
-
     <div>{Posts}</div>
   </div>
   )
@@ -19,7 +47,7 @@ const IndexPage = ({ data: { allMarkdownRemark: { edges } } }) => {
 export default IndexPage
 
 export const pageQuery = graphql`
-  query IndexQuery {
+  query ProjectQuery {
     allMarkdownRemark(filter: {frontmatter: { path: { glob: "/projects/*" } }}) {
       edges {
         node {
@@ -29,6 +57,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             path
             title
+            image
           }
         }
       }

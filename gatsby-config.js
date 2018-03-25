@@ -4,6 +4,7 @@ module.exports = {
   },
   plugins: [ // Order matters!
     'gatsby-plugin-react-helmet',
+    // Filesystem source plugin
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -12,12 +13,19 @@ module.exports = {
       },
     },
     'gatsby-plugin-glamor',
-    { // Typography.js
+    // Typography.js
+    {
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/layouts/typography`,
       },
     },
-    `gatsby-transformer-remark`,
+    // Markdown to HTML parser
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        excerpt_separator: `<!-- end excerpt -->`
+      }
+    },
   ],
 };

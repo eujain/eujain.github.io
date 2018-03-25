@@ -6,7 +6,7 @@ import Typography from "typography";
 import typographyTheme from "typography-theme-judah";
 
 // modify theme
-typographyTheme.baseFontSize = '20px'
+typographyTheme.baseFontSize = '18px'
 // generate and export theme. Gatsby will automatically apply theme to header.
 const typography = new Typography(typographyTheme);
 export default typography;

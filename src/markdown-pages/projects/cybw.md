@@ -1,8 +1,12 @@
 ---
 path: "/projects/cybw"
 date: "2017-11-07"
-title: "Cython BWAPI Wrapper"
+title: "CyBw"
+image: "http://via.placeholder.com/700x400.jpg"
 ---
+
+A Python wrapper for BWAPI written in Cython.
+<!-- end excerpt -->
 
 https://bitbucket.org/ratiotile/cybw
 
