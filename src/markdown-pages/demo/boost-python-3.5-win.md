@@ -1,5 +1,5 @@
 ---
-path: "/demo/boost-python3.5-win"
+path: "/demos/boost-python3.5-win"
 date: "2017-11-07"
 title: "How to Setup Boost.Python with Python 3.5 in Windows"
 ---

@@ -18,7 +18,7 @@ export default IndexPage
 
 export const pageQuery = graphql`
   query DemosQuery {
-    allMarkdownRemark(filter: {frontmatter: { path: { glob: "/demo/*" } }}) {
+    allMarkdownRemark(filter: {frontmatter: { path: { glob: "/demos/*" } }}) {
       edges {
         node {
           id

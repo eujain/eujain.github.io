@@ -3,13 +3,13 @@ import { navigateTo } from "gatsby-link"
 
 class IndexPage extends React.Component {
   componentWillMount(){
-    // Redirect to Projects
-    navigateTo("/project")
+    // Redirect to Projects, with React Router
+    navigateTo("/projects")
   }
   render(){
     return (
     <div>
-      <p>TODO: redirect to projects</p>
+      <p>TODO: redirect to /projects</p>
     </div>
     )
   }

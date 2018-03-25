@@ -51,10 +51,10 @@ const Header = () => (
             Portfolio
           </h2>
         </li>
-        <NavLink to='/project'>
+        <NavLink to='/projects'>
           Projects
         </NavLink>
-        <NavLink to='/demo'>
+        <NavLink to='/demos'>
           Demos
         </NavLink>
         <NavLink to='/open-source'>

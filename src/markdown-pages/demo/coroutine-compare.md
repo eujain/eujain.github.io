@@ -1,5 +1,5 @@
 ---
-path: "/demo/coroutine-compare"
+path: "/demos/coroutine-compare"
 date: "2017-11-07"
 title: "Cross-Language Coroutine Comparison"
 ---
