@@ -11,6 +11,7 @@ module.exports = {
         name: "markdown-pages",
       },
     },
+    'gatsby-plugin-glamor',
     { // Typography.js
       resolve: `gatsby-plugin-typography`,
       options: {

@@ -28,5 +28,6 @@ npm run develop
 ## Plugins
 
 - use typography.js to generate global font styles. See src/layouts/typography
+- Glamor to handle css scoping and merging. (Gatsby doesn't have a Radium plugin). Seems that with the plugin, Glamor doesn't need to be imported to use css props.
 - read markdown files with gatsby-source-filesystem
 - convert markdown to html `gatsby-transformer-remark`
