@@ -17,6 +17,20 @@ styles.ul = {
   padding: 0
 }
 
+const NavLink = (props) => (
+  <li css={styles.nav_li}>
+    <h4>
+      <Link
+        to={props.to}
+        style={styles.link}
+        activeStyle={styles.active}
+      >
+          {props.children}
+      </Link>
+    </h4>
+  </li>
+)
+
 const Header = () => (
   <div
     style={{
@@ -37,27 +51,15 @@ const Header = () => (
             Portfolio
           </h2>
         </li>
-        <li css={styles.nav_li}><Link
-          exact to="/"
-          css={styles.link}
-          activeStyle={styles.active}
-        >
+        <NavLink to='/project'>
           Projects
-        </Link></li>
-        <li css={styles.nav_li}><Link
-          to="/demos"
-          css={styles.link}
-          activeStyle={styles.active}
-        >
+        </NavLink>
+        <NavLink to='/demo'>
           Demos
-        </Link></li>
-        <li css={styles.nav_li}><Link
-          to="/open-source"
-          css={styles.link}
-          activeStyle={styles.active}
-        >
+        </NavLink>
+        <NavLink to='/open-source'>
           Open Source
-        </Link></li>
+        </NavLink>
       </ul>
     </nav>
   </div>
