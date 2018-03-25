@@ -26,6 +26,24 @@ const Header = () => (
           Portfolio
         </Link>
       </h1>
+      <Link
+        to="/demos"
+        style={{
+          color: 'white',
+          textDecoration: 'none',
+        }}
+      >
+        Demos
+      </Link>
+      <Link
+        to="/open-source"
+        style={{
+          color: 'white',
+          textDecoration: 'none',
+        }}
+      >
+        Open Source
+      </Link>
     </div>
   </div>
 )

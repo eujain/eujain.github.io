@@ -8,9 +8,7 @@ const IndexPage = ({ data: { allMarkdownRemark: { edges } } }) => {
 
   return (
   <div>
-    <h1>Selected Projects</h1>
-    <p>TODO: generate list of projects here.</p>
-
+    <h1>Open Source Contributions</h1>
     <div>{Posts}</div>
   </div>
   )
@@ -19,8 +17,8 @@ const IndexPage = ({ data: { allMarkdownRemark: { edges } } }) => {
 export default IndexPage
 
 export const pageQuery = graphql`
-  query IndexQuery {
-    allMarkdownRemark(filter: {frontmatter: { path: { glob: "/projects/*" } }}) {
+  query OpenSourceQuery {
+    allMarkdownRemark(filter: {frontmatter: { path: { glob: "/open-source/*" } }}) {
       edges {
         node {
           id

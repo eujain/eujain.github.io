@@ -1,7 +1,7 @@
 ---
 path: "/projects/hoi3stats"
 date: "2017-11-07"
-title: "JsonSails"
+title: "Hearts of Iron 3 Unit Stats"
 ---
 
 
