@@ -4,6 +4,9 @@ module.exports = {
   },
   plugins: [ // Order matters!
     'gatsby-plugin-react-helmet',
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
+    'gatsby-image',
     // Filesystem source plugin
     {
       resolve: `gatsby-source-filesystem`,

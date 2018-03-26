@@ -2,7 +2,7 @@
 path: "/projects/emapf"
 date: "2015-03-26"
 title: "Evolutionary Multi-Agent Potential Fields"
-image: "http://via.placeholder.com/700x400.jpg"
+image: "./700x400.jpg"
 ---
 
 Evolving better unit combat AI.

@@ -2,7 +2,7 @@
 path: "/projects/hoi3stats"
 date: "2018-01-11"
 title: "Hearts of Iron 3 Unit Stats"
-image: "http://via.placeholder.com/700x400.jpg"
+image: "./700x400.jpg"
 ---
 Parses game files, translating from lua to json, and uploads to Google sheets for derived statistic analysis.
 <!-- end excerpt -->

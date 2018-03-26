@@ -2,7 +2,7 @@
 path: "/projects/cybw"
 date: "2018-01-19"
 title: "CyBw"
-image: "http://via.placeholder.com/700x400.jpg"
+image: "./700x400.jpg"
 ---
 
 A Python wrapper for BWAPI written in Cython.

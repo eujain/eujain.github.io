@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from "gatsby-link";
+import Img from "gatsby-image"
 
 const styles = {
   project: {
@@ -35,8 +36,10 @@ const PostLink = ({ post }) => (
       <h3 css={styles.project.title}>
         {post.frontmatter.title}
       </h3>
-      <img css={styles.project.image}
-        src={post.frontmatter.image}
+      <Img css={styles.project.image}
+        sizes={post.frontmatter.image.childImageSharp.sizes}
+
+        alt={post.frontmatter.title}
       />
     </Link>
     <p css={styles.project.excerpt}>
@@ -76,7 +79,13 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             path
             title
-            image
+            image {
+              childImageSharp {
+                sizes(maxWidth: 700) {
+                  ...GatsbyImageSharpSizes
+                }
+              }
+            }
           }
         }
       }
