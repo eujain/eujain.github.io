@@ -1,6 +1,6 @@
 ---
 path: "/projects/cybw"
-date: "2017-11-07"
+date: "2018-01-19"
 title: "CyBw"
 image: "http://via.placeholder.com/700x400.jpg"
 ---

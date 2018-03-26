@@ -1,6 +1,6 @@
 ---
 path: "/projects/emapf"
-date: "2017-11-07"
+date: "2015-03-26"
 title: "Evolutionary Multi-Agent Potential Fields"
 image: "http://via.placeholder.com/700x400.jpg"
 ---

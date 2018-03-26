@@ -1,6 +1,6 @@
 ---
 path: "/projects/my-first-project"
-date: "2017-11-07"
+date: "2018-03-01"
 title: "JsonSails"
 image: "http://via.placeholder.com/700x400.jpg"
 ---

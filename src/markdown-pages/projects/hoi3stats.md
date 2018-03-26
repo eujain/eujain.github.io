@@ -1,6 +1,6 @@
 ---
 path: "/projects/hoi3stats"
-date: "2017-11-07"
+date: "2018-01-11"
 title: "Hearts of Iron 3 Unit Stats"
 image: "http://via.placeholder.com/700x400.jpg"
 ---

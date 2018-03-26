@@ -1,6 +1,6 @@
 ---
 path: "/open-source/skynet"
-date: "2017-11-07"
+date: "2017-08-05"
 title: "Skynet BWAPI Bot"
 ---
 
