@@ -37,8 +37,8 @@ const PostLink = ({ post }) => (
         {post.frontmatter.title}
       </h3>
       <Img css={styles.project.image}
+        // ImageSharp sizes object to render responsive image
         sizes={post.frontmatter.image.childImageSharp.sizes}
-
         alt={post.frontmatter.title}
       />
     </Link>
@@ -65,6 +65,12 @@ const IndexPage = ({ data: { allMarkdownRemark: { edges } } }) => {
 
 export default IndexPage
 
+/* How to make blur-up images.
+1. Make sure Image directory is reachable by `gatsby-source-filesystem` (gatsby-config.js)
+2. Need `gatsby-plugin-sharp` and `gatsby-transformer-sharp` to process the image path (string) to a file object, then transform it into an ImageSharp object
+3. Use supplied query fragment (...GatsbyImageSharpSizes) to populate query fields for the imageSharp object
+4. Use the `gatsby-image` plugin to render sizes (<Img> replaces <img>)
+*/
 export const pageQuery = graphql`
   query ProjectQuery {
     allMarkdownRemark(
