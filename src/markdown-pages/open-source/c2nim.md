@@ -1,6 +1,6 @@
 ---
 path: "/open-source/c2nim"
-date: "2017-11-07"
+date: "2017-06-09"
 title: "C++ to Nim Wrapper Generator"
 ---
 

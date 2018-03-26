@@ -1,6 +1,6 @@
 ---
 path: "/demos/bwapi-nim"
-date: "2017-11-07"
+date: "2017-06-08"
 title: "Using BWAPI with Nim"
 ---
 

@@ -1,6 +1,6 @@
 ---
 path: "/open-source/st3-pydocstring"
-date: "2017-11-07"
+date: "2015-04-28"
 title: "Sublime Text 3 PyDocString"
 ---
 

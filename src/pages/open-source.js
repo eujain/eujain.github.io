@@ -18,7 +18,10 @@ export default IndexPage
 
 export const pageQuery = graphql`
   query OpenSourceQuery {
-    allMarkdownRemark(filter: {frontmatter: { path: { glob: "/open-source/*" } }}) {
+    allMarkdownRemark(
+      filter: {frontmatter: { path: { glob: "/open-source/*" } } }
+      sort: { order: DESC, fields: [frontmatter___date] }
+    ) {
       edges {
         node {
           id

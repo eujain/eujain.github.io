@@ -1,6 +1,6 @@
 ---
 path: "/demos/nim-hot-reload"
-date: "2017-11-07"
+date: "2017-06-04"
 title: "Hot Code Reloading with Nim"
 ---
 
