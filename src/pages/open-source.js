@@ -1,6 +1,8 @@
 import React from 'react'
 import PostLink from "../components/post-link";
 
+// TODO: replace this page with a single markdown document.
+
 const IndexPage = ({ data: { allMarkdownRemark: { edges } } }) => {
   const Posts = edges
     .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria

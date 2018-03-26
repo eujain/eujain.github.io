@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import {HeaderCSS} from '../../layouts/layout'
 
 var styles = {}
 styles.link = {
@@ -32,18 +33,9 @@ const NavLink = (props) => (
 )
 
 const Header = () => (
-  <div
-    style={{
-      background: 'black',
-      marginBottom: '1.45rem',
-    }}
+  <div {...HeaderCSS.Background}
   >
-    <nav
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1rem 1.0875rem',
-      }}
+    <nav {...HeaderCSS.Container}
     >
       <ul css={styles.ul}>
         <li css={styles.nav_li}>

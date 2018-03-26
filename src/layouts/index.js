@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 
 import Header from '../components/Header'
 import './index.css'
+import {PageContainer} from './layout'
 
 
 
@@ -17,14 +18,7 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
     <Header />
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 1500,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
-      }}
-    >
+    <div {...PageContainer}>
       {children()}
     </div>
   </div>

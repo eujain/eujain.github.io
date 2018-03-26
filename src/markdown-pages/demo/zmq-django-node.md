@@ -1,6 +1,6 @@
 ---
 path: "/demos/zmq-django-node"
-date: "2017-11-07"
+date: "2015-06-20"
 title: "How to Use ZMQ with Python and Node.js"
 ---
 
