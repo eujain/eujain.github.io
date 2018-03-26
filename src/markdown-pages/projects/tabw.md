@@ -2,7 +2,7 @@
 path: "/projects/tabw"
 date: "2018-03-10"
 title: "TABW"
-image: "./tabw.jpg"
+image: "../../img/tabw.jpg"
 ---
 
 A fast terrain analyzer for BWAPI.

@@ -2,7 +2,7 @@
 path: "/projects/my-first-project"
 date: "2018-03-01"
 title: "JsonSails"
-image: "./700x400.jpg"
+image: "../../img/700x400.jpg"
 ---
 
 A framework for the creation of userdata-driven personalized web apps

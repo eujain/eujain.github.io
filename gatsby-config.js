@@ -4,9 +4,7 @@ module.exports = {
   },
   plugins: [ // Order matters!
     'gatsby-plugin-react-helmet',
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
-    'gatsby-image',
+
     // Filesystem source plugin
     {
       resolve: `gatsby-source-filesystem`,
@@ -15,6 +13,16 @@ module.exports = {
         name: "markdown-pages",
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/img`,
+        name: "img",
+      },
+    },
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
+    'gatsby-image',
     'gatsby-plugin-glamor',
     // Typography.js
     {
