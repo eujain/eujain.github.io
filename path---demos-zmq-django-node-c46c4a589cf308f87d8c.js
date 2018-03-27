@@ -1,0 +1,2 @@
+webpackJsonp([270976079265],{440:function(e,t){e.exports={data:{markdownRemark:{html:'<p>Demo using zmq library to communicate between Python and Node.</p>\n<!-- end excerpt -->\n<p><a href="https://bitbucket.org/jsonsails/pyzmqnode_example">https://bitbucket.org/jsonsails/pyzmqnode_example</a></p>',frontmatter:{date:"June 20, 2015",path:"/demos/zmq-django-node",title:"How to Use ZMQ with Python and Node.js"}}},pathContext:{}}}});
+//# sourceMappingURL=path---demos-zmq-django-node-c46c4a589cf308f87d8c.js.map

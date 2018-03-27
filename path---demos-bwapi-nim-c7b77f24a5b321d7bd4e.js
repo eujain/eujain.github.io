@@ -1,0 +1,2 @@
+webpackJsonp([0xaf514db27268],{436:function(t,a){t.exports={data:{markdownRemark:{html:'<p>Exploring how to wrap BWAPI in the Nim programming language.</p>\n<!-- end excerpt -->\n<p><a href="https://github.com/ratiotile/bwapi-nim-test">https://github.com/ratiotile/bwapi-nim-test</a></p>',frontmatter:{date:"June 08, 2017",path:"/demos/bwapi-nim",title:"Using BWAPI with Nim"}}},pathContext:{}}}});
+//# sourceMappingURL=path---demos-bwapi-nim-c7b77f24a5b321d7bd4e.js.map

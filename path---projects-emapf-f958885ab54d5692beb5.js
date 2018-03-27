@@ -1,0 +1,2 @@
+webpackJsonp([0x60504a6ab838],{449:function(t,e){t.exports={data:{markdownRemark:{html:'<p>Evolving better unit combat AI.</p>\n<!-- end excerpt -->\n<p><a href="https://bitbucket.org/ratiotile/emapf">https://bitbucket.org/ratiotile/emapf</a></p>\n<p>Uses genetic algorithms to learn unit combat micro in Starcraft. Ported from an existing C# project, with improvements.</p>',frontmatter:{date:"March 26, 2015",path:"/projects/emapf",title:"Evolutionary Multi-Agent Potential Fields"}}},pathContext:{}}}});
+//# sourceMappingURL=path---projects-emapf-f958885ab54d5692beb5.js.map

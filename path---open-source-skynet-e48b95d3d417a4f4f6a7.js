@@ -1,0 +1,2 @@
+webpackJsonp([0xa2aff203cd53],{444:function(t,a){t.exports={data:{markdownRemark:{html:'<p><a href="https://bitbucket.org/ratiotile/cybw">https://bitbucket.org/ratiotile/cybw</a></p>\n<p>A bot that plays Starcraft and participated in the Starcraft AI Competition. I ported it to modern C++ so that it compiles under VS2015.</p>',frontmatter:{date:"August 05, 2017",path:"/open-source/skynet",title:"Skynet BWAPI Bot"}}},pathContext:{}}}});
+//# sourceMappingURL=path---open-source-skynet-e48b95d3d417a4f4f6a7.js.map

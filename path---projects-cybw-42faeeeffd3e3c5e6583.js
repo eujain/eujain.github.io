@@ -1,0 +1,2 @@
+webpackJsonp([0xae008751daf0],{448:function(t,e){t.exports={data:{markdownRemark:{html:'<p>A Python wrapper for BWAPI written in Cython.</p>\n<!-- end excerpt -->\n<p><a href="https://bitbucket.org/ratiotile/cybw">https://bitbucket.org/ratiotile/cybw</a></p>\n<p>Use the expressiveness of Python to quickly prototype a bot, then port the slow bits to a C++ extension.</p>',frontmatter:{date:"January 19, 2018",path:"/projects/cybw",title:"CyBw"}}},pathContext:{}}}});
+//# sourceMappingURL=path---projects-cybw-42faeeeffd3e3c5e6583.js.map

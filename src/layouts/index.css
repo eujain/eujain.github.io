@@ -1,4 +1,0 @@
-/* Need to set 100%_height on all outer elements for sitcky footer */
-html, body, #___gatsby, #___gatsby>div{
-  height: 100%;
-}

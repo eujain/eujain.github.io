@@ -1,0 +1,2 @@
+webpackJsonp([0x842fa74dee8a],{446:function(t,e){t.exports={data:{markdownRemark:{html:"<p><a href=\"https://github.com/ratiotile/tape-watch\">https://github.com/ratiotile/tape-watch</a></p>\n<p>A Node.js utility that runs tape tests whenever files in the project change. I fixed a bug in the detection of files using '**' globstar syntax.</p>",frontmatter:{date:"July 22, 2016",path:"/open-source/tape-watch",title:"Contribution to tape-watch"}}},pathContext:{}}}});
+//# sourceMappingURL=path---open-source-tape-watch-68677c0d68b13eec65cb.js.map
