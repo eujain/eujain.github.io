@@ -4,9 +4,9 @@ import {css} from 'glamor'
 import Link from 'gatsby-link'
 
 const FooterLink = ({children, to}) => (
-  <li {...CSS.Footer.Item}>
+  <li {...CSS.Nav.Item}>
     <h4>
-      <a {...CSS.Footer.Link}
+      <a {...CSS.Nav.Link}
         href={to}
       >
         {children}
@@ -16,12 +16,12 @@ const FooterLink = ({children, to}) => (
 )
 
 const FooterComponent = () => (
-  <div {...CSS.Footer.Background}
+  <div {...CSS.Nav.Background}
   >
-    <div {...CSS.HeaderCSS.Container}
+    <div {...CSS.Nav.Container}
     >
-      <ul {...CSS.Footer.List}>
-        <li {...CSS.Footer.Item}>
+      <ul {...CSS.Nav.List}>
+        <li {...CSS.Nav.Item}>
           Copyright © 2018 - Eujain Ting
         </li>
         <FooterLink to="mailto:eujain@gmail.com">

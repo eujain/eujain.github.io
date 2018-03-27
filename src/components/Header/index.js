@@ -1,30 +1,13 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import {HeaderCSS} from '../../layouts/layout'
-
-var styles = {}
-styles.link = {
-  color: 'white',
-  textDecoration: 'none',
-}
-styles.active = { color: 'yellow' }
-styles.nav_li = {
-  display: 'inline-block',
-  listStyleType: 'none',
-  margin: '0 1rem 0 0'
-}
-styles.ul = {
-  margin: 0,
-  padding: 0
-}
+import CSS from '../../layouts/layout'
 
 const NavLink = (props) => (
-  <li css={styles.nav_li}>
+  <li {...CSS.Nav.Item}>
     <h4>
-      <Link
+      <Link {...CSS.Nav.Link}
         to={props.to}
-        style={styles.link}
-        activeStyle={styles.active}
+        activeStyle={CSS.Nav.Active}
       >
           {props.children}
       </Link>
@@ -32,13 +15,13 @@ const NavLink = (props) => (
   </li>
 )
 
-const Header = () => (
-  <div {...HeaderCSS.Background}
+const HeaderComponent = () => (
+  <div {...CSS.Header.Background}
   >
-    <nav {...HeaderCSS.Container}
+    <nav {...CSS.Nav.Container}
     >
-      <ul css={styles.ul}>
-        <li css={styles.nav_li}>
+      <ul {...CSS.Nav.List}>
+        <li {...CSS.Nav.Item}>
           <h2 style={{ margin: 0, color: "white"}}>
             Portfolio
           </h2>
@@ -57,4 +40,4 @@ const Header = () => (
   </div>
 )
 
-export default Header
+export default HeaderComponent

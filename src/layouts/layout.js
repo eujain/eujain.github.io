@@ -21,21 +21,14 @@ export const Page = {
   }),
 }
 
-export const HeaderCSS = {
+// Shared between Header and Footer
+export const Nav = {
   Background: css({
     background: 'black',
-    marginBottom: '1.45rem',
-    flex: '0 0 auto'
+    flex: '0 0 auto',
   }),
   Container: css(Page.Container, {
     padding: '1rem 1.0875rem',
-  }),
-}
-
-export const Footer = {
-  Background: css({
-    background: 'black',
-    flexShrink: 0
   }),
   List: css({
     margin: 0,
@@ -45,13 +38,24 @@ export const Footer = {
     color: 'white',
     display: 'inline-block',
     listStyleType: 'none',
-    margin: '0 1rem 0 0',
+    margin: '0 1rem 0 0'
   }),
+  // activeStyle prop takes object, activeClassName not working!
+  Active: {
+    color: 'yellow'
+  },
   Link: css({
     color: 'white',
+    textDecoration: 'none',
     ':hover': {
       color: 'grey'
-    }
+    },
+  }),
+}
+
+export const Header = {
+  Background: css(Nav.Background, {
+    marginBottom: '1.45rem',
   }),
 }
 
@@ -61,9 +65,9 @@ export const MiddleOuter = css({
 })
 
 const Style = {
-  HeaderCSS,
-  Footer,
-  Page
+  Header,
+  Page,
+  Nav,
 }
 
 export default Style;
