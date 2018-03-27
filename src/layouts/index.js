@@ -7,15 +7,6 @@ import Footer from '../components/footer'
 import './index.css'
 import {PageContainer, Page} from './layout'
 
-const style = {
-  outer: {
-    height: '100%',
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'stretch',
-  }
-}
-
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
@@ -25,7 +16,7 @@ const TemplateWrapper = ({ children }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    <div css={style.outer}>
+    <div {...Page.OuterColumn}>
       <Header />
       <div {...Page.Margin}>
         <div {...Page.Container}>

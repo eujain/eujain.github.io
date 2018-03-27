@@ -1,30 +1,13 @@
 import React from 'react'
-import {HeaderCSS, FooterCSS} from '../layouts/layout'
+import CSS from '../layouts/layout'
 import {css} from 'glamor'
 import Link from 'gatsby-link'
 
-const styles = {
-  item: {
-    color: 'white',
-    display: 'inline-block',
-    listStyleType: 'none',
-    margin: '0 1rem 0 0'
-  },
-  ul: {
-    margin: 0,
-    padding: 0
-  },
-  footer: {
-    background: 'black',
-    flexShrink: 0
-  }
-}
-
 const FooterLink = ({children, to}) => (
-  <li css={styles.item}>
+  <li {...CSS.Footer.Item}>
     <h4>
-      <a href={to}
-        className={`${FooterCSS.Link}`}
+      <a {...CSS.Footer.Link}
+        href={to}
       >
         {children}
       </a>
@@ -32,13 +15,13 @@ const FooterLink = ({children, to}) => (
   </li>
 )
 
-const Footer = () => (
-  <div {...css(styles.footer)}
+const FooterComponent = () => (
+  <div {...CSS.Footer.Background}
   >
-    <div {...HeaderCSS.Container}
+    <div {...CSS.HeaderCSS.Container}
     >
-      <ul css={styles.ul}>
-        <li css={styles.item}>
+      <ul {...CSS.Footer.List}>
+        <li {...CSS.Footer.Item}>
           Copyright © 2018 - Eujain Ting
         </li>
         <FooterLink to="mailto:eujain@gmail.com">
@@ -55,4 +38,4 @@ const Footer = () => (
   </div>
 )
 
-export default Footer
+export default FooterComponent
