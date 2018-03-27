@@ -1,6 +1,5 @@
 import React from 'react'
 import PostLink from "../components/post-link";
-import {MiddleOuter} from '../layouts/layout'
 
 // TODO: replace this page with a single markdown document.
 

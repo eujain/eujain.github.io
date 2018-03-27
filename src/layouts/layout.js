@@ -59,15 +59,23 @@ export const Header = {
   }),
 }
 
-export const MiddleOuter = css({
-  flex: '1 0 auto',
-  backgroundColor: 'yellow'
-})
+const Collection = {
+  Title: css({
+    margin: '0.4em 0'
+  }),
+  Image: css({
+    margin: '0 0 0 0'
+  }),
+  Excerpt: css({
+    margin: '0 0 2em 0'
+  }),
+}
 
 const Style = {
   Header,
   Page,
   Nav,
+  Collection,
 }
 
 export default Style;

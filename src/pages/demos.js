@@ -1,42 +1,15 @@
 import React from 'react'
 import Link from "gatsby-link";
-
-const styles = {
-  demo: {
-    title: {
-      margin: '0.4em 0'
-    },
-    image: {
-      margin: '0 0 0 0'
-    },
-    excerpt: {
-      margin: '0 0 2em 0'
-    }
-  },
-  container: {
-    display: 'flex',
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    justifyContent: 'space-between',
-    columnGap: 10,
-    margin: '-10px',
-  },
-  flex_item: {
-    flex: "1 1 500px",
-    maxWidth: 700,
-    minWidth: 400,
-    margin: '10px'
-  }
-}
+import CSS from "../layouts/layout"
 
 const DemoLink = ({ post }) => (
   <div>
     <Link to={post.frontmatter.path}>
-      <h3 css={styles.demo.title}>
+      <h3 {...CSS.Collection.Title}>
         {post.frontmatter.title}
       </h3>
     </Link>
-    <p css={styles.demo.excerpt}>
+    <p {...CSS.Collection.Excerpt}>
       {post.excerpt}
     </p>
   </div>

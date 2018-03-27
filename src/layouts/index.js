@@ -5,7 +5,7 @@ import Helmet from 'react-helmet'
 import Header from '../components/Header'
 import Footer from '../components/footer'
 import './index.css'
-import {PageContainer, Page} from './layout'
+import CSS from './layout'
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -16,10 +16,10 @@ const TemplateWrapper = ({ children }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    <div {...Page.OuterColumn}>
+    <div {...CSS.Page.OuterColumn}>
       <Header />
-      <div {...Page.Margin}>
-        <div {...Page.Container}>
+      <div {...CSS.Page.Margin}>
+        <div {...CSS.Page.Container}>
           {children()}
         </div>
       </div>

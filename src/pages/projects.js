@@ -1,19 +1,9 @@
 import React from 'react'
 import Link from "gatsby-link";
 import Img from "gatsby-image"
+import CSS from "../layouts/layout"
 
 const styles = {
-  project: {
-    title: {
-      margin: '0.4em 0'
-    },
-    image: {
-      margin: '0 0 0 0'
-    },
-    excerpt: {
-      margin: '0 0 2em 0'
-    }
-  },
   container: {
     display: 'flex',
     flexDirection: 'row',
@@ -30,19 +20,20 @@ const styles = {
   }
 }
 
-const PostLink = ({ post }) => (
+// Box with Title, Image, and Excerpt for a project
+const ProjectLink = ({ post }) => (
   <div css={styles.flex_item}>
     <Link to={post.frontmatter.path}>
-      <h3 css={styles.project.title}>
+      <h3 {...CSS.Collection.Title}>
         {post.frontmatter.title}
       </h3>
-      <Img css={styles.project.image}
+      <Img {...CSS.Collection.Image}
         // ImageSharp sizes object to render responsive image
         sizes={post.frontmatter.image.childImageSharp.sizes}
         alt={post.frontmatter.title}
       />
     </Link>
-    <p css={styles.project.excerpt}>
+    <p {...CSS.Collection.Excerpt}>
       {post.excerpt}
     </p>
   </div>
@@ -51,7 +42,7 @@ const PostLink = ({ post }) => (
 const ProjectsPage = ({ data: { allMarkdownRemark: { edges } } }) => {
   const Posts = edges
     .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
-    .map(edge => <PostLink key={edge.node.id} post={edge.node} />);
+    .map(edge => <ProjectLink key={edge.node.id} post={edge.node} />);
 
   return (
   <div>

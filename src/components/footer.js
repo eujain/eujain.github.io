@@ -1,7 +1,6 @@
 import React from 'react'
 import CSS from '../layouts/layout'
-import {css} from 'glamor'
-import Link from 'gatsby-link'
+
 
 const FooterLink = ({children, to}) => (
   <li {...CSS.Nav.Item}>
