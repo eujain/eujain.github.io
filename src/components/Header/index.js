@@ -32,9 +32,11 @@ const HeaderComponent = () => (
         <NavLink to='/demos'>
           Demos
         </NavLink>
-        <NavLink to='/open-source'>
-          Open Source
-        </NavLink>
+        {/* TODO: enable when rewritten to single page
+       <NavLink to='/open-source'>
+         Open Source
+       </NavLink>
+        */}
       </ul>
     </nav>
   </div>
