@@ -1,9 +1,10 @@
 import React from 'react'
 import PostLink from "../components/post-link";
+import {MiddleOuter} from '../layouts/layout'
 
 // TODO: replace this page with a single markdown document.
 
-const IndexPage = ({ data: { allMarkdownRemark: { edges } } }) => {
+const OpenSourcePage = ({ data: { allMarkdownRemark: { edges } } }) => {
   const Posts = edges
     .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />);
@@ -15,8 +16,8 @@ const IndexPage = ({ data: { allMarkdownRemark: { edges } } }) => {
   </div>
   )
 }
-
-export default IndexPage
+/*  */
+export default OpenSourcePage
 
 export const pageQuery = graphql`
   query OpenSourceQuery {

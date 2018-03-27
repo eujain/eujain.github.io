@@ -42,7 +42,7 @@ const DemoLink = ({ post }) => (
   </div>
 );
 
-const IndexPage = ({ data: { allMarkdownRemark: { edges } } }) => {
+const DemosPage = ({ data: { allMarkdownRemark: { edges } } }) => {
   const Posts = edges
     .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
     .map(edge => <DemoLink key={edge.node.id} post={edge.node} />);
@@ -55,7 +55,7 @@ const IndexPage = ({ data: { allMarkdownRemark: { edges } } }) => {
   )
 }
 
-export default IndexPage
+export default DemosPage
 
 export const pageQuery = graphql`
   query DemosQuery {

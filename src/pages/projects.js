@@ -48,7 +48,7 @@ const PostLink = ({ post }) => (
   </div>
 );
 
-const IndexPage = ({ data: { allMarkdownRemark: { edges } } }) => {
+const ProjectsPage = ({ data: { allMarkdownRemark: { edges } } }) => {
   const Posts = edges
     .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />);
@@ -63,7 +63,7 @@ const IndexPage = ({ data: { allMarkdownRemark: { edges } } }) => {
   )
 }
 
-export default IndexPage
+export default ProjectsPage
 
 /* How to make blur-up images.
 1. Make sure Image directory is reachable by `gatsby-source-filesystem` (gatsby-config.js)
