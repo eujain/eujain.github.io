@@ -4,6 +4,10 @@
       "path---demos-zmq-django-node-c46c4a589cf308f87d8c.js",
       "path---demos-zmq-django-node-c46c4a589cf308f87d8c.js.map"
     ],
+    "path---projects-j-son-sails": [
+      "path---projects-j-son-sails-64861785f5974e3d023f.js",
+      "path---projects-j-son-sails-64861785f5974e3d023f.js.map"
+    ],
     "path---open-source-c-2-nim": [
       "path---open-source-c-2-nim-0dd267cac54f9363a4b8.js",
       "path---open-source-c-2-nim-0dd267cac54f9363a4b8.js.map"
@@ -17,8 +21,8 @@
       "path---open-source-st-3-pydocstring-634a36ff68455f728b38.js.map"
     ],
     "component---src-pages-demos-js": [
-      "component---src-pages-demos-js-04a6a6bcfcc223d399f6.js",
-      "component---src-pages-demos-js-04a6a6bcfcc223d399f6.js.map"
+      "component---src-pages-demos-js-f87505b2e14ccfc3bdd2.js",
+      "component---src-pages-demos-js-f87505b2e14ccfc3bdd2.js.map"
     ],
     "path---demos-coroutine-compare": [
       "path---demos-coroutine-compare-7dc4402647bdfd3d28c7.js",
@@ -37,8 +41,8 @@
       "path----557518bd178906f8d58a.js.map"
     ],
     "path---projects": [
-      "path---projects-96d7186ed4047e16b646.js",
-      "path---projects-96d7186ed4047e16b646.js.map"
+      "path---projects-f5ac2f61ea23fbd3b4b7.js",
+      "path---projects-f5ac2f61ea23fbd3b4b7.js.map"
     ],
     "path---demos-nim-hot-reload": [
       "path---demos-nim-hot-reload-d8211a3194f1635daef0.js",
@@ -49,8 +53,8 @@
       "component---src-pages-open-source-js-21436e6d2bfc630f49ce.js.map"
     ],
     "path---projects-emapf": [
-      "path---projects-emapf-f958885ab54d5692beb5.js",
-      "path---projects-emapf-f958885ab54d5692beb5.js.map"
+      "path---projects-emapf-1d297b8d6866d8aaece7.js",
+      "path---projects-emapf-1d297b8d6866d8aaece7.js.map"
     ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-4585807ad5a1acdf0c58.js",
@@ -69,8 +73,8 @@
       "component---src-templates-project-template-js-4cc5a0edc517ffa5376c.js.map"
     ],
     "path---projects-tabw": [
-      "path---projects-tabw-d26ae3b52b6d6dba9592.js",
-      "path---projects-tabw-d26ae3b52b6d6dba9592.js.map"
+      "path---projects-tabw-3572d101858054689dd0.js",
+      "path---projects-tabw-3572d101858054689dd0.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-cd51d374be13da4bdeeb.js",
@@ -89,12 +93,12 @@
       "path---open-source-skynet-e48b95d3d417a4f4f6a7.js.map"
     ],
     "path---projects-hoi-3-stats": [
-      "path---projects-hoi-3-stats-95387ceeefa89d7cad18.js",
-      "path---projects-hoi-3-stats-95387ceeefa89d7cad18.js.map"
+      "path---projects-hoi-3-stats-7ac193fda9facd4cc6ae.js",
+      "path---projects-hoi-3-stats-7ac193fda9facd4cc6ae.js.map"
     ],
     "path---projects-cybw": [
-      "path---projects-cybw-42faeeeffd3e3c5e6583.js",
-      "path---projects-cybw-42faeeeffd3e3c5e6583.js.map"
+      "path---projects-cybw-e2c2ea60ad84e5109b9d.js",
+      "path---projects-cybw-e2c2ea60ad84e5109b9d.js.map"
     ],
     "path---demos-bwapi-nim": [
       "path---demos-bwapi-nim-c7b77f24a5b321d7bd4e.js",
@@ -105,13 +109,13 @@
       "path---demos-5ca5177a5f9b97718421.js.map"
     ],
     "component---src-pages-projects-js": [
-      "component---src-pages-projects-js-d577c6d48da80cdac809.js",
-      "component---src-pages-projects-js-d577c6d48da80cdac809.js.map"
+      "component---src-pages-projects-js-1af33317ae54fc24d122.js",
+      "component---src-pages-projects-js-1af33317ae54fc24d122.js.map"
     ],
     "app": [
-      "app-cc569e0cba7349154a7b.js",
+      "app-c990f92bfb930cab79d0.js",
       "build-js-styles.css",
-      "app-cc569e0cba7349154a7b.js.map",
+      "app-c990f92bfb930cab79d0.js.map",
       "build-js-styles.css.map"
     ],
     "path---demos-exampleaimodule-bwapilib-dll": [
@@ -121,10 +125,6 @@
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
-    ],
-    "path---projects-my-first-project": [
-      "path---projects-my-first-project-6218ebbe3884676ebdaf.js",
-      "path---projects-my-first-project-6218ebbe3884676ebdaf.js.map"
     ]
   }
 }
